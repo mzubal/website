@@ -1,0 +1,89 @@
+baseurl = "http://zubal.cz"
+title = "Miloš Zubal"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Miloš Zubal"
+    description = "Miloš Zubal's personal website"
+    keywords = "blog,developer,personal"
+    info = "Java Developer / Software Engineer / Tech. Lead"
+    avatarurl = "images/milos-cropped-small.jpg"
+    footercontent = ""
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    # commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+
+[taxonomies]
+  series = "series"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/mzubal/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/MilosZubal"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/miloszubal/"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/about/"
+
+    [languages.cz]
+        languagename = "Česky"
+        title = "Miloš Zubal"
+
+        [languages.cz.params]
+            author = "Miloš Zubal"
+            info = "Java Vývojář / Softwarový Inženýr / Náměstek Ředitele :D"
+            description = "Osobní stránky Miloše Zubala"
+            keywords = "blog,desenvolvedor,pessoal"
+            footercontent = ""
+
+        [languages.cz.menu]
+            [[languages.cz.menu.main]]
+            name = "O mně"
+            weight = 1
+            url = "/cz/about/"
+
