@@ -19,7 +19,7 @@ disqusShortname = "yourdiscussshortname"
     author = "Miloš Zubal"
     description = "Miloš Zubal's personal website"
     keywords = "blog,developer,personal"
-    info = "Java Developer / Software Engineer / Tech. Lead"
+    info = "Software Engineer / Java Developer / Tech. Lead"
     avatarurl = "images/milos-cropped-small.jpg"
     footercontent = ""
 
@@ -76,7 +76,7 @@ disqusShortname = "yourdiscussshortname"
 
         [languages.cz.params]
             author = "Miloš Zubal"
-            info = "Java Vývojář / Softwarový Inženýr / Náměstek Ředitele :D"
+            info = "Softwarový Inženýr / Java Vývojář / Náměstek Ředitele :D"
             description = "Osobní stránky Miloše Zubala"
             keywords = "blog,desenvolvedor,pessoal"
             footercontent = ""
